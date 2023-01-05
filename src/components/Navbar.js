@@ -15,7 +15,7 @@ function Navbar() {
                             <a href="/" className="block py-2 pl-3 pr-4 text-gray rounded  md:p-0">Product</a>
                         </li>
                         <li>
-                            <a href="/" class="block py-2 pl-3 pr-4 text-gray rounded  md:p-0">Resources</a>
+                            <a href="/" className="block py-2 pl-3 pr-4 text-gray rounded  md:p-0">Resources</a>
                         </li>
                         <li>
                             <a href="/" className="block py-2 pl-3 pr-4 text-gray rounded  md:p-0">Pricing</a>
