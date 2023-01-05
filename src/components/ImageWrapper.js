@@ -9,7 +9,7 @@ function ImageWrapper() {
         <div className=" grid grid-cols-1 lg:grid-cols-2">
           <div className='flex flex-col align-center py-[60px]'>
             <h1 className='text-xl md:text-5xl lg:text-5xl font-bold text-center mb-5 '>A better way to talk<br /> with your customers</h1>
-            <p class="text-sm md:text-lg lg:text-xl text-center mb-20">Manage all your customer conversations in one<br /> powerful platform that feels just like your inbox.</p>
+            <p className="text-sm md:text-lg lg:text-xl text-center mb-20">Manage all your customer conversations in one<br /> powerful platform that feels just like your inbox.</p>
             <div className='grid grid-cols-1  px-10 justify-items-center mb-10 md:grid-cols-2'>
               <button className='bg-blue text-white p-3 rounded-md '>Try for free</button>
               <button className='bg-white text-blue p-3 ring-2 ring-black rounded-md mt-5 md:mt-0'>Get a Demo</button>
@@ -18,15 +18,15 @@ function ImageWrapper() {
               <div className=' ustify-items-end px-10 md:border-r-2 border-gray'>
                 <img src='https://hs-marketing.imgix.net/images/pages/home/HomeHero/HomeHero--g2-badges-2022.png?ixlib=gatsbyHook-2.0.2&fit=min&auto=format%2Ccompress&placeholder=dominantColor&w=261&h=100' alt='resim' />
               </div>
-              <div> <p class="content-center"><strong >See the impact</strong> <a class="block text-blue font-bold py-4" target="_blank" href="/">View customer stories </a></p></div>
+              <div> <p className="content-center"><strong >See the impact</strong> <a className="block text-blue font-bold py-4" target="_blank" href="/">View customer stories </a></p></div>
             </div>
           </div>
           <img src='https://hs-marketing.imgix.net/images/pages/home/HomeHero/HomeHero--collaboration-illo.png?ixlib=gatsbyHook-2.0.2&fit=min&auto=format%2Ccompress&placeholder=dominantColor&w=662&h=505' alt='img-1' />
         </div>
         <div className='grid column-1 justify-content-center mb-10'>
-          <h2 class="text-center text-xl font-medium">More than 12,000 businesses delight their customers with Help Scout.</h2>
+          <h2 className="text-center text-xl font-medium">More than 12,000 businesses delight their customers with Help Scout.</h2>
         </div>
-        <div class="grid grid-cols-3 gap-4 md:grid-cols-6">
+        <div className="grid grid-cols-3 gap-4 md:grid-cols-6">
           <div className='wrapper-img px-3'>
             <img src='https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F370hH5fiu3QhXFwL4BXbui%2Fd3ff4434b170269195624ddff5270901%2FMixmax.png?ixlib=gatsbySourceUrl-2.0.2&auto=format%2C%20compress&w=138&h=75&s=560514efdeabd38ad090628d427abf96 ' alt=''></img>
           </div>
