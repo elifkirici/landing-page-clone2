@@ -4,4 +4,41 @@
   margin: 0px 25px 0px 0px;
   padding: 5px 0px 10px;
   width: 152px;
-  background: url(./img/logo-color.svg) 0px 5px / 100% no-repeat;}
+  background: url(./img/logo-color.svg) 0px 5px / 100% no-repeat;
+}
+
+.image-wrapper button {
+  width: 230px;
+}
+
+.wrapper-img {
+  width: 203px;
+  height: 75px;
+
+}
+
+.wrapper-img img {
+  width: 138px;
+  height: 100%;
+}
+
+@media (max-width: 1276px) {
+  .image-wrapper button {
+    width: 180px;
+  }
+
+  .wrapper-img img {
+    width: 126px;
+  }
+}
+
+@media (max-width: 428px) {
+  .image-wrapper button {
+    width: 100%;
+    font-size: 20px;
+  }
+
+  .wrapper-img img {
+    width: 138px;
+  }
+}
