@@ -2,6 +2,8 @@
 import '../style.css';
 import CustomerQuotes from './CustomerQuotes';
 
+import CustomerQuotesSection from './CustomerQuotesSection';
+
 
 function TabContent({ selectedTab }) {
     return (
@@ -39,6 +41,7 @@ function TabContent({ selectedTab }) {
                             </div>
                         </div>
                         <CustomerQuotes />
+                        <CustomerQuotesSection/>
                     </div>
                 ) : (
                     <div>whatBtn</div>
