@@ -1,13 +1,13 @@
 
 import '../style.css';
 import CustomerQuotes from './CustomerQuotes';
-
 import CustomerQuotesSection from './CustomerQuotesSection';
+import HomeResourcesSection from './HomeResourcesSection';
 
 
 function TabContent({ selectedTab }) {
     return (
-        <div className='mb-10'>
+        <div className='tabcontent'>
             {
                 selectedTab === "whyBtn" ? (
                     <div className='wyBtnContent'>
@@ -42,6 +42,7 @@ function TabContent({ selectedTab }) {
                         </div>
                         <CustomerQuotes />
                         <CustomerQuotesSection/>
+                        <HomeResourcesSection/>
                     </div>
                 ) : (
                     <div>whatBtn</div>

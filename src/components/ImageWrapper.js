@@ -4,7 +4,7 @@ import '../App.css';
 function ImageWrapper() {
   return (
 
-    <div className="container mx-auto mt-[100px]">
+    <div className="image-wrapper">
       <section className='image-wrapper'>
         <div className=" grid grid-cols-1 lg:grid-cols-2">
           <div className='flex flex-col align-center py-[60px]'>
@@ -23,7 +23,8 @@ function ImageWrapper() {
           </div>
           <img src='https://hs-marketing.imgix.net/images/pages/home/HomeHero/HomeHero--collaboration-illo.png?ixlib=gatsbyHook-2.0.2&fit=min&auto=format%2Ccompress&placeholder=dominantColor&w=662&h=505' alt='img-1' />
         </div>
-        <div className='grid column-1 justify-content-center mb-10'>
+      <div className='image-wrapper-bottom'>
+      <div className='grid column-1 justify-content-center mb-10'>
           <h2 className="text-center text-xl font-medium">More than 12,000 businesses delight their customers with Help Scout.</h2>
         </div>
         <div className="grid grid-cols-3 gap-4 md:grid-cols-6">
@@ -45,6 +46,7 @@ function ImageWrapper() {
             <img src='https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2F239x4UcKCVhrOCva7GeWEj%2F18a058c04415d93e7b03f5e82d499712%2FCompass.png?ixlib=gatsbySourceUrl-2.0.2&auto=format%2C%20compress&w=283&h=154&s=e9758421a5122011af0ad2eabb44d206' alt=''></img>
           </div>
         </div>
+      </div>
 
       </section>
     </div>

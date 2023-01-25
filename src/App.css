@@ -1,6 +1,9 @@
-.App{
+body{
 background-color: #f4f8ff;
 }   
+.App{
+  width: 100%;
+}
 .navbar-active{
   background: #fff;
   position: fixed;

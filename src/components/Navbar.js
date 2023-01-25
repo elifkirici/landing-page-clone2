@@ -17,7 +17,7 @@ function Navbar() {
       })
    
     return (
-      <div className="mt-5">
+      <>
            <nav className={navbar ? "navbar-active drop-shadow-md" : "navbar"} >
             <div className="container flex flex-wrap items-center justify-between mx-auto">
                 <div className="flex">
@@ -100,7 +100,7 @@ function Navbar() {
                 </div>
             </div>
         </nav>
-      </div>
+      </>
      
     );
 }
