@@ -6,7 +6,7 @@ function TabsButtons() {
     const [selectedTab, setSelectedTab] = useState("whyBtn")
     const changeNavBackground = () => {
         console.log(window.scrollY)
-        if (window.scrollY >= 791) {
+        if (window.scrollY >= 692 && window.scrollY < 1412) {
           setTabNav(true)
         } else {
           setTabNav(false)

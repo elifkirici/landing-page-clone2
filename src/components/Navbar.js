@@ -18,7 +18,7 @@ function Navbar() {
    
     return (
       <>
-           <nav className={navbar ? "navbar-active drop-shadow-md" : "navbar"} >
+           <nav className={navbar ? "navbar-active drop-shadow-md h-[80px]" : "navbar h-[80px]"} >
             <div className="container flex flex-wrap items-center justify-between mx-auto">
                 <div className="flex">
                 <a className="block  ezvrcN " href="/">
